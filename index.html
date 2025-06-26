@@ -1,27 +1,32 @@
+/* === FICHIER : index.html === */
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Accueil - Mon Entreprise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenue chez Mon Entreprise</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Bienvenue sur notre site</h1>
   </header>
-
+  <div class="burger">☰</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <img class="carousel" src="images/carrousel1.jpg" alt="Carrousel">
   <main>
-    <h2>Notre entreprise</h2>
-    <p>Présentation générale de l’entreprise.</p>
+    <section class="scroll-animate">
+      <h2>Notre Entreprise</h2>
+      <p>Texte de présentation avec effet animé.</p>
+    </section>
   </main>
-
   <script src="js/script.js"></script>
 </body>
 </html>
